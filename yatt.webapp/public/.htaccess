@@ -1,0 +1,12 @@
+# Action x-psgi-handler /-/cgi-bin/runplack.fcgi
+Action x-psgi-handler /-/cgi-bin/runplack.cgi
+
+AddHandler x-psgi-handler .html .ydo
+DirectoryIndex index.yatt index.ydo index.html
+
+Options +FollowSymLinks +MultiViews
+MultiviewsMatch Handlers Filters
+
+RewriteEngine on
+
+RewriteBase /-/
