@@ -9,7 +9,7 @@
   <body>
 
     <header class="navbar text-bg-dark">
-      <a href="/" class="navbar-brand text-white">（会社名とかサイト名）</a>
+      <a href="/" class="navbar-brand text-white">ヘッダー（会社名とかサイト名）</a>
       <ul class="nav nav-pills">
         <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
         <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
@@ -35,9 +35,9 @@
         <main class="col-md-9 col-lg-10">
           <div class="container my-5">
             <div class="p-5 text-center bg-body-tertiary rounded-3">
-              <h1 class="text-body-emphasis">！！様々なコンテンツ！！</h1>
+              <h1 class="text-body-emphasis">！！メインとなるコンテンツ！！</h1>
               <p class="col-lg-8 mx-auto">
-                ここにアピールが書かれる、はず…
+                様々な文・画像…
               </p>
             </div>
           </div>
