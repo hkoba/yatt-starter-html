@@ -8,8 +8,8 @@
   </head>
   <body>
 
-    <header class="navbar">
-      <a href="/" class="navbar-brand">（会社名とかサイト名）</a>
+    <header class="navbar text-bg-dark">
+      <a href="/" class="navbar-brand text-white">（会社名とかサイト名）</a>
       <ul class="nav nav-pills">
         <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
         <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
