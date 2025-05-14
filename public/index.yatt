@@ -3,11 +3,48 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>（ページ名）-（会社名とかサイト名）</title>
     <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+
+    <header class="navbar">
+      <a href="/" class="navbar-brand">（会社名とかサイト名）</a>
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+      </ul>
+    </header>
+
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-md-3 col-lg-2">
+          サイドバー
+          <hr>
+          <ul class="nav nav-pills flex-column mb-auto">
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">サービスA</a> </li>
+            <li class="nav-item"><a href="#" class="nav-link">サービスB</a> </li>
+            <li class="nav-item"><a href="#" class="nav-link">サービスC</a> </li>
+          </ul>
+        </div>
+
+        <main class="col-md-9 col-lg-10">
+          <div class="container my-5">
+            <div class="p-5 text-center bg-body-tertiary rounded-3">
+              <h1 class="text-body-emphasis">！！様々なコンテンツ！！</h1>
+              <p class="col-lg-8 mx-auto">
+                ここにアピールが書かれる、はず…
+              </p>
+            </div>
+          </div>
+        </main>
+
+      </div>
+    </div>
     <script src="/static/bootstrap/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
