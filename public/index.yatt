@@ -7,7 +7,6 @@
     <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-
     <header class="navbar text-bg-dark">
       <a href="/" class="navbar-brand text-white">ヘッダー（会社名とかサイト名）</a>
       <ul class="nav nav-pills">
