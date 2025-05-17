@@ -1,7 +1,7 @@
-<!yatt:widget nav_link loc="?/"
- selected="value/&yatt:absrequest(); eq (&yatt:loc;)"
+<!yatt:widget nav_link href="?/"
+ selected="value/&yatt:absrequest(); eq (&yatt:href;)"
  class disabled>
-<yatt:my url="&yatt:script_name();&yatt:loc;"/>
+<yatt:my url="&yatt:script_name();&yatt:href;"/>
 <yatt:if "&yatt:disabled; || &yatt:selected;">
   <a class="nav-link &yatt:class; &yatt:if(:selected,active); disabled" href="&yatt:url;" tabindex="-1" aria-disabled="true"><yatt:body/><yatt:if "not &yatt:disabled;"><span class="sr-only">(current)</span></yatt:if></a>
   <:yatt:else/>
