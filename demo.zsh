@@ -12,4 +12,5 @@ podman build -f Dockerfile -t $myTag
 
 podman run -it --rm -p 5000:5000 \
        -v $PWD/public:/myapp/public:O \
+       -v $PWD/ytmpl:/myapp/ytmpl:O \
        $myTag

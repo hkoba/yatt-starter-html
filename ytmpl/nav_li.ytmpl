@@ -1,0 +1,14 @@
+<!yatt:widget nav_link loc="?/"
+ selected="value/&yatt:absrequest(); eq (&yatt:loc;)"
+ class disabled>
+<yatt:my url="&yatt:script_name();&yatt:loc;"/>
+<yatt:if "&yatt:disabled; || &yatt:selected;">
+  <a class="nav-link &yatt:class; &yatt:if(:selected,active); disabled" href="&yatt:url;" tabindex="-1" aria-disabled="true"><yatt:body/><yatt:if "not &yatt:disabled;"><span class="sr-only">(current)</span></yatt:if></a>
+  <:yatt:else/>
+  <a class="nav-link &yatt:class;" href="&yatt:url;"><yatt:body/></a>
+</yatt:if>
+
+<!yatt:args nav_link=[delegate]>
+<li class="nav-item">
+<yatt:nav_link body/>
+</li>
