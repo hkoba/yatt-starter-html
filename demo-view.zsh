@@ -6,7 +6,7 @@ set -e
 
 cd $0:h
 
-git restore .
+git reset --hard HEAD
 
 git clean -f -f -d
 
